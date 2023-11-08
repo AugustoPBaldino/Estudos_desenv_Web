@@ -1,0 +1,57 @@
+DOM: Domain Object Model;
+
+Box Model{
+
+Padding: Dar um "respiro" para o conteúdo da DIV;
+
+Border: Opcional;
+
+Martin: Não conta para altura e largura, mas serve para espçar de outros elementos da página, "Empurra" o elementos.
+
+
+}
+
+Display{
+
+Display none: Esconde o elemento;
+Display inline: deixar elementos um do lado do outro (Não aceitam largura e altura, apenas com inline block).
+
+}
+
+
+Positions {
+    
+Static: Posição padrão, não é afetada por nenhum posicionamento (não é afetada pelo top, left, right, bottom);
+
+Relative: Se ajusta para a posição que a gente colocou, relação ao elemento mais próximo;
+
+Fixed: Praticamente igual a absolute, ela é relativa sempre ao Body (tela do usuário), rolando a barra ela acompanha;
+
+Absolute: Absoluta ao elemento pai , sem influência nenhuma com as outras divs;
+
+Sticky: É basicamente a fixed, o grande detalhe é que ela acompanha a partir de um top 50px por exemplo.
+
+}
+
+Propriedade Float {
+
+Faz o elemento "flutuar" para o lado que tu quiser, caso o projeto quebre, pois o float não tem limite, deve-se cirar uma div externa e usar a propriedade Overflow:auto
+
+}
+
+Unidades de medida{
+
+Px: Pixels, fácil entendimento, mas quando é necessário responsividade pode se tornar inapropriada.
+
+Em: Da a medida em relação ao elemento pai, por exemplo, um texto com fonte size 50 gera uma div 50x50 em um EM 1.
+
+Rem: trabalha tmb em relação ao elementos da fonte, mas dessa vez em relação a raiz (<Html>, padrão 16px)
+
+%: Pega a largura do pai e tranfere para o filho em Px.
+}
+
+
+
+
+
+
